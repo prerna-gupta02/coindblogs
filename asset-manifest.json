@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coindblogs/static/css/main.d1c20ec2.css",
+    "main.js": "/coindblogs/static/js/main.dd60a717.js",
+    "static/js/787.f587e8d5.chunk.js": "/coindblogs/static/js/787.f587e8d5.chunk.js",
+    "index.html": "/coindblogs/index.html",
+    "main.d1c20ec2.css.map": "/coindblogs/static/css/main.d1c20ec2.css.map",
+    "main.dd60a717.js.map": "/coindblogs/static/js/main.dd60a717.js.map",
+    "787.f587e8d5.chunk.js.map": "/coindblogs/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1c20ec2.css",
+    "static/js/main.dd60a717.js"
+  ]
+}
