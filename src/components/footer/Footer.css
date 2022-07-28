@@ -1,0 +1,104 @@
+.footer{
+    background-color: #800080;
+    color: #fff;
+    border-top: 12px solid #64ef64;
+    padding: 30px 0;
+}
+.footer .footer-content{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+}
+.footer .footer-content p{
+    width: 50%;
+}
+.footer .footer-content .input-butn{
+    position: relative;
+    margin: auto 0;
+}
+.footer .footer-content .input-butn input{
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #64ef64;
+    color: #fff;
+    font-weight: 500;
+}
+.footer .footer-content .input-butn input::placeholder{
+    color: #fff;
+}
+.footer .footer-content .input-butn button{
+    position: absolute;
+    right: 7px;
+    border-radius: 20px;
+    height: 35px;
+    width: 95px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer .footer-links{
+    width: 80%;
+    margin: 20px auto 0 auto;
+    padding: 0 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-links .f-links a:not(:last-child){
+    margin-right: 20px;
+}
+.footer .footer-links p{
+    margin-bottom: 0;
+}
+.footer .footer-links .f-icons a:not(:last-child){
+    margin-right: 20px;
+}
+.footer .footer-links .f-icons a{
+    font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+    .footer .footer-content{
+        flex-direction: column;
+    }
+    .footer .footer-content .input-butn {
+        width: 320px;
+    }
+    .footer .footer-content .input-butn button {
+        right: 25px;
+    }
+    .footer .footer-content p {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .footer .footer-links {
+        flex-direction: column;
+    }
+    .footer .footer-links .f-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .footer-links .f-links a:not(:last-child){
+        margin-right: 0px;
+    }
+    .footer .footer-links .copyright{
+        margin: 20px 0;
+    }
+    .footer .footer-content .input-butn {
+        width: 270px;
+    }
+    .footer .footer-content .input-butn input {
+        width: 250px;
+    }
+    .footer .footer-content .input-butn button {
+        width: 75px;
+    }
+    .footer .footer-content {
+        width: 90%;
+    }
+}

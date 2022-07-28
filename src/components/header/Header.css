@@ -1,0 +1,14 @@
+.header{
+    padding: 40px 8%;
+}
+.header h1{
+    color: purple;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.header button{
+    background-color: purple;
+    width: 130px;
+    border-radius: 20px;
+    float: right;
+}
